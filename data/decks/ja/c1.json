@@ -1,0 +1,12 @@
+{
+  "id": "deck_ja_c1",
+  "language": "ja",
+  "languageName": "Japanese",
+  "nativeLanguageName": "日本語",
+  "level": "C1",
+  "levelName": "Advanced",
+  "title": "C1: Advanced Japanese",
+  "description": "Express ideas fluently and spontaneously in Japanese",
+  "sentenceCount": 10,
+  "sentencesUrl": "/data/sentences/deck_ja_c1.json"
+}

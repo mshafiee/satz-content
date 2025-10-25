@@ -1,0 +1,12 @@
+{
+  "id": "deck_de_a1",
+  "language": "de",
+  "languageName": "German",
+  "nativeLanguageName": "Deutsch",
+  "level": "A1",
+  "levelName": "Beginner",
+  "title": "A1: Beginner German",
+  "description": "Basic phrases and greetings in German",
+  "sentenceCount": 20,
+  "sentencesUrl": "/data/sentences/deck_de_a1.json"
+}

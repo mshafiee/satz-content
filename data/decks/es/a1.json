@@ -1,0 +1,12 @@
+{
+  "id": "deck_es_a1",
+  "language": "es",
+  "languageName": "Spanish",
+  "nativeLanguageName": "Español",
+  "level": "A1",
+  "levelName": "Beginner",
+  "title": "A1: Beginner Spanish",
+  "description": "Basic phrases and greetings in Spanish",
+  "sentenceCount": 20,
+  "sentencesUrl": "/data/sentences/deck_es_a1.json"
+}

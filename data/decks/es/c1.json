@@ -1,0 +1,12 @@
+{
+  "id": "deck_es_c1",
+  "language": "es",
+  "languageName": "Spanish",
+  "nativeLanguageName": "Español",
+  "level": "C1",
+  "levelName": "Advanced",
+  "title": "C1: Advanced Spanish",
+  "description": "Express ideas fluently and spontaneously in Spanish",
+  "sentenceCount": 10,
+  "sentencesUrl": "/data/sentences/deck_es_c1.json"
+}

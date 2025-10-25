@@ -1,0 +1,290 @@
+{
+  "deckId": "deck_fr_a1",
+  "version": "1.0",
+  "lastUpdated": "2025-10-25T19:44:44.509Z",
+  "language": "fr",
+  "level": "A1",
+  "sentenceCount": 20,
+  "sentences": [
+    {
+      "id": "fr-a1-1",
+      "order": 1,
+      "targetLanguage": {
+        "text": "Sample French sentence 1",
+        "audioUrl": "https://translate.google.com/translate_tts?ie=UTF-8&q=Sample+French+sentence+1&tl=fr&client=tw-ob",
+        "audioFile": "/audio/fr/fr-a1-1.mp3"
+      },
+      "nativeLanguage": {
+        "text": "Sample translation 1",
+        "audioUrl": "https://translate.google.com/translate_tts?ie=UTF-8&q=Sample%20translation%201&tl=en&client=tw-ob",
+        "audioFile": "/audio/en/fr-a1-1-en.mp3"
+      }
+    },
+    {
+      "id": "fr-a1-2",
+      "order": 2,
+      "targetLanguage": {
+        "text": "Sample French sentence 2",
+        "audioUrl": "https://translate.google.com/translate_tts?ie=UTF-8&q=Sample+French+sentence+2&tl=fr&client=tw-ob",
+        "audioFile": "/audio/fr/fr-a1-2.mp3"
+      },
+      "nativeLanguage": {
+        "text": "Sample translation 2",
+        "audioUrl": "https://translate.google.com/translate_tts?ie=UTF-8&q=Sample%20translation%202&tl=en&client=tw-ob",
+        "audioFile": "/audio/en/fr-a1-2-en.mp3"
+      }
+    },
+    {
+      "id": "fr-a1-3",
+      "order": 3,
+      "targetLanguage": {
+        "text": "Sample French sentence 3",
+        "audioUrl": "https://translate.google.com/translate_tts?ie=UTF-8&q=Sample+French+sentence+3&tl=fr&client=tw-ob",
+        "audioFile": "/audio/fr/fr-a1-3.mp3"
+      },
+      "nativeLanguage": {
+        "text": "Sample translation 3",
+        "audioUrl": "https://translate.google.com/translate_tts?ie=UTF-8&q=Sample%20translation%203&tl=en&client=tw-ob",
+        "audioFile": "/audio/en/fr-a1-3-en.mp3"
+      }
+    },
+    {
+      "id": "fr-a1-4",
+      "order": 4,
+      "targetLanguage": {
+        "text": "Sample French sentence 4",
+        "audioUrl": "https://translate.google.com/translate_tts?ie=UTF-8&q=Sample+French+sentence+4&tl=fr&client=tw-ob",
+        "audioFile": "/audio/fr/fr-a1-4.mp3"
+      },
+      "nativeLanguage": {
+        "text": "Sample translation 4",
+        "audioUrl": "https://translate.google.com/translate_tts?ie=UTF-8&q=Sample%20translation%204&tl=en&client=tw-ob",
+        "audioFile": "/audio/en/fr-a1-4-en.mp3"
+      }
+    },
+    {
+      "id": "fr-a1-5",
+      "order": 5,
+      "targetLanguage": {
+        "text": "Sample French sentence 5",
+        "audioUrl": "https://translate.google.com/translate_tts?ie=UTF-8&q=Sample+French+sentence+5&tl=fr&client=tw-ob",
+        "audioFile": "/audio/fr/fr-a1-5.mp3"
+      },
+      "nativeLanguage": {
+        "text": "Sample translation 5",
+        "audioUrl": "https://translate.google.com/translate_tts?ie=UTF-8&q=Sample%20translation%205&tl=en&client=tw-ob",
+        "audioFile": "/audio/en/fr-a1-5-en.mp3"
+      }
+    },
+    {
+      "id": "fr-a1-6",
+      "order": 6,
+      "targetLanguage": {
+        "text": "Sample French sentence 6",
+        "audioUrl": "https://translate.google.com/translate_tts?ie=UTF-8&q=Sample+French+sentence+6&tl=fr&client=tw-ob",
+        "audioFile": "/audio/fr/fr-a1-6.mp3"
+      },
+      "nativeLanguage": {
+        "text": "Sample translation 6",
+        "audioUrl": "https://translate.google.com/translate_tts?ie=UTF-8&q=Sample%20translation%206&tl=en&client=tw-ob",
+        "audioFile": "/audio/en/fr-a1-6-en.mp3"
+      }
+    },
+    {
+      "id": "fr-a1-7",
+      "order": 7,
+      "targetLanguage": {
+        "text": "Sample French sentence 7",
+        "audioUrl": "https://translate.google.com/translate_tts?ie=UTF-8&q=Sample+French+sentence+7&tl=fr&client=tw-ob",
+        "audioFile": "/audio/fr/fr-a1-7.mp3"
+      },
+      "nativeLanguage": {
+        "text": "Sample translation 7",
+        "audioUrl": "https://translate.google.com/translate_tts?ie=UTF-8&q=Sample%20translation%207&tl=en&client=tw-ob",
+        "audioFile": "/audio/en/fr-a1-7-en.mp3"
+      }
+    },
+    {
+      "id": "fr-a1-8",
+      "order": 8,
+      "targetLanguage": {
+        "text": "Sample French sentence 8",
+        "audioUrl": "https://translate.google.com/translate_tts?ie=UTF-8&q=Sample+French+sentence+8&tl=fr&client=tw-ob",
+        "audioFile": "/audio/fr/fr-a1-8.mp3"
+      },
+      "nativeLanguage": {
+        "text": "Sample translation 8",
+        "audioUrl": "https://translate.google.com/translate_tts?ie=UTF-8&q=Sample%20translation%208&tl=en&client=tw-ob",
+        "audioFile": "/audio/en/fr-a1-8-en.mp3"
+      }
+    },
+    {
+      "id": "fr-a1-9",
+      "order": 9,
+      "targetLanguage": {
+        "text": "Sample French sentence 9",
+        "audioUrl": "https://translate.google.com/translate_tts?ie=UTF-8&q=Sample+French+sentence+9&tl=fr&client=tw-ob",
+        "audioFile": "/audio/fr/fr-a1-9.mp3"
+      },
+      "nativeLanguage": {
+        "text": "Sample translation 9",
+        "audioUrl": "https://translate.google.com/translate_tts?ie=UTF-8&q=Sample%20translation%209&tl=en&client=tw-ob",
+        "audioFile": "/audio/en/fr-a1-9-en.mp3"
+      }
+    },
+    {
+      "id": "fr-a1-10",
+      "order": 10,
+      "targetLanguage": {
+        "text": "Sample French sentence 10",
+        "audioUrl": "https://translate.google.com/translate_tts?ie=UTF-8&q=Sample+French+sentence+10&tl=fr&client=tw-ob",
+        "audioFile": "/audio/fr/fr-a1-10.mp3"
+      },
+      "nativeLanguage": {
+        "text": "Sample translation 10",
+        "audioUrl": "https://translate.google.com/translate_tts?ie=UTF-8&q=Sample%20translation%2010&tl=en&client=tw-ob",
+        "audioFile": "/audio/en/fr-a1-10-en.mp3"
+      }
+    },
+    {
+      "id": "fr-a1-11",
+      "order": 11,
+      "targetLanguage": {
+        "text": "Sample French sentence 11",
+        "audioUrl": "https://translate.google.com/translate_tts?ie=UTF-8&q=Sample+French+sentence+11&tl=fr&client=tw-ob",
+        "audioFile": "/audio/fr/fr-a1-11.mp3"
+      },
+      "nativeLanguage": {
+        "text": "Sample translation 11",
+        "audioUrl": "https://translate.google.com/translate_tts?ie=UTF-8&q=Sample%20translation%2011&tl=en&client=tw-ob",
+        "audioFile": "/audio/en/fr-a1-11-en.mp3"
+      }
+    },
+    {
+      "id": "fr-a1-12",
+      "order": 12,
+      "targetLanguage": {
+        "text": "Sample French sentence 12",
+        "audioUrl": "https://translate.google.com/translate_tts?ie=UTF-8&q=Sample+French+sentence+12&tl=fr&client=tw-ob",
+        "audioFile": "/audio/fr/fr-a1-12.mp3"
+      },
+      "nativeLanguage": {
+        "text": "Sample translation 12",
+        "audioUrl": "https://translate.google.com/translate_tts?ie=UTF-8&q=Sample%20translation%2012&tl=en&client=tw-ob",
+        "audioFile": "/audio/en/fr-a1-12-en.mp3"
+      }
+    },
+    {
+      "id": "fr-a1-13",
+      "order": 13,
+      "targetLanguage": {
+        "text": "Sample French sentence 13",
+        "audioUrl": "https://translate.google.com/translate_tts?ie=UTF-8&q=Sample+French+sentence+13&tl=fr&client=tw-ob",
+        "audioFile": "/audio/fr/fr-a1-13.mp3"
+      },
+      "nativeLanguage": {
+        "text": "Sample translation 13",
+        "audioUrl": "https://translate.google.com/translate_tts?ie=UTF-8&q=Sample%20translation%2013&tl=en&client=tw-ob",
+        "audioFile": "/audio/en/fr-a1-13-en.mp3"
+      }
+    },
+    {
+      "id": "fr-a1-14",
+      "order": 14,
+      "targetLanguage": {
+        "text": "Sample French sentence 14",
+        "audioUrl": "https://translate.google.com/translate_tts?ie=UTF-8&q=Sample+French+sentence+14&tl=fr&client=tw-ob",
+        "audioFile": "/audio/fr/fr-a1-14.mp3"
+      },
+      "nativeLanguage": {
+        "text": "Sample translation 14",
+        "audioUrl": "https://translate.google.com/translate_tts?ie=UTF-8&q=Sample%20translation%2014&tl=en&client=tw-ob",
+        "audioFile": "/audio/en/fr-a1-14-en.mp3"
+      }
+    },
+    {
+      "id": "fr-a1-15",
+      "order": 15,
+      "targetLanguage": {
+        "text": "Sample French sentence 15",
+        "audioUrl": "https://translate.google.com/translate_tts?ie=UTF-8&q=Sample+French+sentence+15&tl=fr&client=tw-ob",
+        "audioFile": "/audio/fr/fr-a1-15.mp3"
+      },
+      "nativeLanguage": {
+        "text": "Sample translation 15",
+        "audioUrl": "https://translate.google.com/translate_tts?ie=UTF-8&q=Sample%20translation%2015&tl=en&client=tw-ob",
+        "audioFile": "/audio/en/fr-a1-15-en.mp3"
+      }
+    },
+    {
+      "id": "fr-a1-16",
+      "order": 16,
+      "targetLanguage": {
+        "text": "Sample French sentence 16",
+        "audioUrl": "https://translate.google.com/translate_tts?ie=UTF-8&q=Sample+French+sentence+16&tl=fr&client=tw-ob",
+        "audioFile": "/audio/fr/fr-a1-16.mp3"
+      },
+      "nativeLanguage": {
+        "text": "Sample translation 16",
+        "audioUrl": "https://translate.google.com/translate_tts?ie=UTF-8&q=Sample%20translation%2016&tl=en&client=tw-ob",
+        "audioFile": "/audio/en/fr-a1-16-en.mp3"
+      }
+    },
+    {
+      "id": "fr-a1-17",
+      "order": 17,
+      "targetLanguage": {
+        "text": "Sample French sentence 17",
+        "audioUrl": "https://translate.google.com/translate_tts?ie=UTF-8&q=Sample+French+sentence+17&tl=fr&client=tw-ob",
+        "audioFile": "/audio/fr/fr-a1-17.mp3"
+      },
+      "nativeLanguage": {
+        "text": "Sample translation 17",
+        "audioUrl": "https://translate.google.com/translate_tts?ie=UTF-8&q=Sample%20translation%2017&tl=en&client=tw-ob",
+        "audioFile": "/audio/en/fr-a1-17-en.mp3"
+      }
+    },
+    {
+      "id": "fr-a1-18",
+      "order": 18,
+      "targetLanguage": {
+        "text": "Sample French sentence 18",
+        "audioUrl": "https://translate.google.com/translate_tts?ie=UTF-8&q=Sample+French+sentence+18&tl=fr&client=tw-ob",
+        "audioFile": "/audio/fr/fr-a1-18.mp3"
+      },
+      "nativeLanguage": {
+        "text": "Sample translation 18",
+        "audioUrl": "https://translate.google.com/translate_tts?ie=UTF-8&q=Sample%20translation%2018&tl=en&client=tw-ob",
+        "audioFile": "/audio/en/fr-a1-18-en.mp3"
+      }
+    },
+    {
+      "id": "fr-a1-19",
+      "order": 19,
+      "targetLanguage": {
+        "text": "Sample French sentence 19",
+        "audioUrl": "https://translate.google.com/translate_tts?ie=UTF-8&q=Sample+French+sentence+19&tl=fr&client=tw-ob",
+        "audioFile": "/audio/fr/fr-a1-19.mp3"
+      },
+      "nativeLanguage": {
+        "text": "Sample translation 19",
+        "audioUrl": "https://translate.google.com/translate_tts?ie=UTF-8&q=Sample%20translation%2019&tl=en&client=tw-ob",
+        "audioFile": "/audio/en/fr-a1-19-en.mp3"
+      }
+    },
+    {
+      "id": "fr-a1-20",
+      "order": 20,
+      "targetLanguage": {
+        "text": "Sample French sentence 20",
+        "audioUrl": "https://translate.google.com/translate_tts?ie=UTF-8&q=Sample+French+sentence+20&tl=fr&client=tw-ob",
+        "audioFile": "/audio/fr/fr-a1-20.mp3"
+      },
+      "nativeLanguage": {
+        "text": "Sample translation 20",
+        "audioUrl": "https://translate.google.com/translate_tts?ie=UTF-8&q=Sample%20translation%2020&tl=en&client=tw-ob",
+        "audioFile": "/audio/en/fr-a1-20-en.mp3"
+      }
+    }
+  ]
+}

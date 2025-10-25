@@ -1,0 +1,12 @@
+{
+  "id": "deck_en_b1",
+  "language": "en",
+  "languageName": "English",
+  "nativeLanguageName": "English",
+  "level": "B1",
+  "levelName": "Intermediate",
+  "title": "B1: Intermediate English",
+  "description": "Express opinions and discuss familiar topics in English",
+  "sentenceCount": 10,
+  "sentencesUrl": "/data/sentences/deck_en_b1.json"
+}

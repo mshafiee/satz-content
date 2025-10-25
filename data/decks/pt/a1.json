@@ -1,0 +1,12 @@
+{
+  "id": "deck_pt_a1",
+  "language": "pt",
+  "languageName": "Portuguese",
+  "nativeLanguageName": "Português",
+  "level": "A1",
+  "levelName": "Beginner",
+  "title": "A1: Beginner Portuguese",
+  "description": "Basic phrases and greetings in Portuguese",
+  "sentenceCount": 20,
+  "sentencesUrl": "/data/sentences/deck_pt_a1.json"
+}

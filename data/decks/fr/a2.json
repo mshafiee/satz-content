@@ -1,0 +1,12 @@
+{
+  "id": "deck_fr_a2",
+  "language": "fr",
+  "languageName": "French",
+  "nativeLanguageName": "Français",
+  "level": "A2",
+  "levelName": "Elementary",
+  "title": "A2: Elementary French",
+  "description": "Simple conversations and daily activities in French",
+  "sentenceCount": 15,
+  "sentencesUrl": "/data/sentences/deck_fr_a2.json"
+}

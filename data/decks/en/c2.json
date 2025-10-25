@@ -1,0 +1,12 @@
+{
+  "id": "deck_en_c2",
+  "language": "en",
+  "languageName": "English",
+  "nativeLanguageName": "English",
+  "level": "C2",
+  "levelName": "Proficient",
+  "title": "C2: Proficient English",
+  "description": "Master level communication in English",
+  "sentenceCount": 10,
+  "sentencesUrl": "/data/sentences/deck_en_c2.json"
+}

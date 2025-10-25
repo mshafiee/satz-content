@@ -1,0 +1,12 @@
+{
+  "id": "deck_pt_c1",
+  "language": "pt",
+  "languageName": "Portuguese",
+  "nativeLanguageName": "Português",
+  "level": "C1",
+  "levelName": "Advanced",
+  "title": "C1: Advanced Portuguese",
+  "description": "Express ideas fluently and spontaneously in Portuguese",
+  "sentenceCount": 10,
+  "sentencesUrl": "/data/sentences/deck_pt_c1.json"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "deck_ja_c2",
+  "language": "ja",
+  "languageName": "Japanese",
+  "nativeLanguageName": "日本語",
+  "level": "C2",
+  "levelName": "Proficient",
+  "title": "C2: Proficient Japanese",
+  "description": "Master level communication in Japanese",
+  "sentenceCount": 10,
+  "sentencesUrl": "/data/sentences/deck_ja_c2.json"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "deck_en_a1",
+  "language": "en",
+  "languageName": "English",
+  "nativeLanguageName": "English",
+  "level": "A1",
+  "levelName": "Beginner",
+  "title": "A1: Beginner English",
+  "description": "Basic phrases and greetings in English",
+  "sentenceCount": 20,
+  "sentencesUrl": "/data/sentences/deck_en_a1.json"
+}

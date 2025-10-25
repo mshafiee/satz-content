@@ -1,0 +1,12 @@
+{
+  "id": "deck_it_a1",
+  "language": "it",
+  "languageName": "Italian",
+  "nativeLanguageName": "Italiano",
+  "level": "A1",
+  "levelName": "Beginner",
+  "title": "A1: Beginner Italian",
+  "description": "Basic phrases and greetings in Italian",
+  "sentenceCount": 20,
+  "sentencesUrl": "/data/sentences/deck_it_a1.json"
+}

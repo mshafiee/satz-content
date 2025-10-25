@@ -1,0 +1,12 @@
+{
+  "id": "deck_es_c2",
+  "language": "es",
+  "languageName": "Spanish",
+  "nativeLanguageName": "Español",
+  "level": "C2",
+  "levelName": "Proficient",
+  "title": "C2: Proficient Spanish",
+  "description": "Master level communication in Spanish",
+  "sentenceCount": 10,
+  "sentencesUrl": "/data/sentences/deck_es_c2.json"
+}

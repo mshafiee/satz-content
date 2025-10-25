@@ -1,0 +1,12 @@
+{
+  "id": "deck_ja_a2",
+  "language": "ja",
+  "languageName": "Japanese",
+  "nativeLanguageName": "日本語",
+  "level": "A2",
+  "levelName": "Elementary",
+  "title": "A2: Elementary Japanese",
+  "description": "Simple conversations and daily activities in Japanese",
+  "sentenceCount": 15,
+  "sentencesUrl": "/data/sentences/deck_ja_a2.json"
+}

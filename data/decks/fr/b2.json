@@ -1,0 +1,12 @@
+{
+  "id": "deck_fr_b2",
+  "language": "fr",
+  "languageName": "French",
+  "nativeLanguageName": "Français",
+  "level": "B2",
+  "levelName": "Upper Intermediate",
+  "title": "B2: Upper Intermediate French",
+  "description": "Discuss complex topics and current events in French",
+  "sentenceCount": 10,
+  "sentencesUrl": "/data/sentences/deck_fr_b2.json"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "deck_ja_b1",
+  "language": "ja",
+  "languageName": "Japanese",
+  "nativeLanguageName": "日本語",
+  "level": "B1",
+  "levelName": "Intermediate",
+  "title": "B1: Intermediate Japanese",
+  "description": "Express opinions and discuss familiar topics in Japanese",
+  "sentenceCount": 10,
+  "sentencesUrl": "/data/sentences/deck_ja_b1.json"
+}

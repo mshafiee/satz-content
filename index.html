@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Satz Content Repository</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .container {
+            background: white;
+            border-radius: 12px;
+            padding: 40px;
+            max-width: 800px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        h1 {
+            color: #667eea;
+            margin-bottom: 20px;
+            font-size: 2.5em;
+        }
+        h2 {
+            color: #764ba2;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            font-size: 1.5em;
+        }
+        p {
+            margin-bottom: 15px;
+            color: #555;
+        }
+        .links {
+            display: flex;
+            gap: 15px;
+            margin-top: 30px;
+            flex-wrap: wrap;
+        }
+        .btn {
+            display: inline-block;
+            padding: 12px 24px;
+            background: #667eea;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            transition: background 0.3s;
+            font-weight: 500;
+        }
+        .btn:hover {
+            background: #764ba2;
+        }
+        .btn-secondary {
+            background: #48bb78;
+        }
+        .btn-secondary:hover {
+            background: #38a169;
+        }
+        code {
+            background: #f7fafc;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+            color: #e53e3e;
+        }
+        ul {
+            margin-left: 30px;
+            margin-bottom: 15px;
+        }
+        li {
+            margin-bottom: 8px;
+            color: #555;
+        }
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+        .stat-card {
+            background: #f7fafc;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        .stat-number {
+            font-size: 2em;
+            font-weight: bold;
+            color: #667eea;
+        }
+        .stat-label {
+            color: #718096;
+            font-size: 0.9em;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎯 Satz Content Repository</h1>
+        <p>Welcome to the content repository for the Satz language learning application. This repository hosts language learning content including deck metadata, sentence data, and audio files served via GitHub Pages.</p>
+        
+        <div class="stats">
+            <div class="stat-card">
+                <div class="stat-number">7</div>
+                <div class="stat-label">Languages</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">6</div>
+                <div class="stat-label">CEFR Levels</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">100+</div>
+                <div class="stat-label">Sentences</div>
+            </div>
+        </div>
+
+        <h2>📦 Available Endpoints</h2>
+        <ul>
+            <li><strong>Deck Index:</strong> <code>/data/decks/index.json</code></li>
+            <li><strong>Deck Data:</strong> <code>/data/decks/{language}/{level}.json</code></li>
+            <li><strong>Sentence Data:</strong> <code>/data/sentences/deck_{language}_{level}.json</code></li>
+            <li><strong>Audio Files:</strong> <code>/audio/{language}/{filename}.mp3</code></li>
+        </ul>
+
+        <h2>🌍 Supported Languages</h2>
+        <ul>
+            <li><strong>de</strong> - German (Deutsch)</li>
+            <li><strong>es</strong> - Spanish (Español)</li>
+            <li><strong>fr</strong> - French (Français)</li>
+            <li><strong>it</strong> - Italian (Italiano)</li>
+            <li><strong>pt</strong> - Portuguese (Português)</li>
+            <li><strong>ja</strong> - Japanese (日本語)</li>
+            <li><strong>en</strong> - English</li>
+        </ul>
+
+        <h2>📚 CEFR Levels</h2>
+        <p>Content is organized by the Common European Framework of Reference for Languages (CEFR):</p>
+        <ul>
+            <li><strong>A1</strong> - Beginner</li>
+            <li><strong>A2</strong> - Elementary</li>
+            <li><strong>B1</strong> - Intermediate</li>
+            <li><strong>B2</strong> - Upper Intermediate</li>
+            <li><strong>C1</strong> - Advanced</li>
+            <li><strong>C2</strong> - Proficient</li>
+        </ul>
+
+        <div class="links">
+            <a href="./data/decks/index.json" class="btn">View Deck Index</a>
+            <a href="https://github.com/mshafiee/satz-content" class="btn btn-secondary">GitHub Repository</a>
+        </div>
+    </div>
+</body>
+</html>
+

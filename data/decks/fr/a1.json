@@ -1,0 +1,12 @@
+{
+  "id": "deck_fr_a1",
+  "language": "fr",
+  "languageName": "French",
+  "nativeLanguageName": "Français",
+  "level": "A1",
+  "levelName": "Beginner",
+  "title": "A1: Beginner French",
+  "description": "Basic phrases and greetings in French",
+  "sentenceCount": 20,
+  "sentencesUrl": "/data/sentences/deck_fr_a1.json"
+}

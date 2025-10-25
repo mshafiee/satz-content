@@ -1,0 +1,12 @@
+{
+  "id": "deck_it_b1",
+  "language": "it",
+  "languageName": "Italian",
+  "nativeLanguageName": "Italiano",
+  "level": "B1",
+  "levelName": "Intermediate",
+  "title": "B1: Intermediate Italian",
+  "description": "Express opinions and discuss familiar topics in Italian",
+  "sentenceCount": 10,
+  "sentencesUrl": "/data/sentences/deck_it_b1.json"
+}

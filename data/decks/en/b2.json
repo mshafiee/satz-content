@@ -1,0 +1,12 @@
+{
+  "id": "deck_en_b2",
+  "language": "en",
+  "languageName": "English",
+  "nativeLanguageName": "English",
+  "level": "B2",
+  "levelName": "Upper Intermediate",
+  "title": "B2: Upper Intermediate English",
+  "description": "Discuss complex topics and current events in English",
+  "sentenceCount": 10,
+  "sentencesUrl": "/data/sentences/deck_en_b2.json"
+}

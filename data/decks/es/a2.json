@@ -1,0 +1,12 @@
+{
+  "id": "deck_es_a2",
+  "language": "es",
+  "languageName": "Spanish",
+  "nativeLanguageName": "Español",
+  "level": "A2",
+  "levelName": "Elementary",
+  "title": "A2: Elementary Spanish",
+  "description": "Simple conversations and daily activities in Spanish",
+  "sentenceCount": 15,
+  "sentencesUrl": "/data/sentences/deck_es_a2.json"
+}

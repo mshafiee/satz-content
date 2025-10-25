@@ -1,0 +1,12 @@
+{
+  "id": "deck_it_c1",
+  "language": "it",
+  "languageName": "Italian",
+  "nativeLanguageName": "Italiano",
+  "level": "C1",
+  "levelName": "Advanced",
+  "title": "C1: Advanced Italian",
+  "description": "Express ideas fluently and spontaneously in Italian",
+  "sentenceCount": 10,
+  "sentencesUrl": "/data/sentences/deck_it_c1.json"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "deck_it_b2",
+  "language": "it",
+  "languageName": "Italian",
+  "nativeLanguageName": "Italiano",
+  "level": "B2",
+  "levelName": "Upper Intermediate",
+  "title": "B2: Upper Intermediate Italian",
+  "description": "Discuss complex topics and current events in Italian",
+  "sentenceCount": 10,
+  "sentencesUrl": "/data/sentences/deck_it_b2.json"
+}

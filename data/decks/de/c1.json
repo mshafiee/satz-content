@@ -1,0 +1,12 @@
+{
+  "id": "deck_de_c1",
+  "language": "de",
+  "languageName": "German",
+  "nativeLanguageName": "Deutsch",
+  "level": "C1",
+  "levelName": "Advanced",
+  "title": "C1: Advanced German",
+  "description": "Express ideas fluently and spontaneously in German",
+  "sentenceCount": 10,
+  "sentencesUrl": "/data/sentences/deck_de_c1.json"
+}

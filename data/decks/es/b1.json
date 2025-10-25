@@ -1,0 +1,12 @@
+{
+  "id": "deck_es_b1",
+  "language": "es",
+  "languageName": "Spanish",
+  "nativeLanguageName": "Español",
+  "level": "B1",
+  "levelName": "Intermediate",
+  "title": "B1: Intermediate Spanish",
+  "description": "Express opinions and discuss familiar topics in Spanish",
+  "sentenceCount": 10,
+  "sentencesUrl": "/data/sentences/deck_es_b1.json"
+}

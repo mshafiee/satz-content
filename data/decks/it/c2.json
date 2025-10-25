@@ -1,0 +1,12 @@
+{
+  "id": "deck_it_c2",
+  "language": "it",
+  "languageName": "Italian",
+  "nativeLanguageName": "Italiano",
+  "level": "C2",
+  "levelName": "Proficient",
+  "title": "C2: Proficient Italian",
+  "description": "Master level communication in Italian",
+  "sentenceCount": 10,
+  "sentencesUrl": "/data/sentences/deck_it_c2.json"
+}

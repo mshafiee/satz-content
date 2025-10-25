@@ -1,0 +1,12 @@
+{
+  "id": "deck_it_a2",
+  "language": "it",
+  "languageName": "Italian",
+  "nativeLanguageName": "Italiano",
+  "level": "A2",
+  "levelName": "Elementary",
+  "title": "A2: Elementary Italian",
+  "description": "Simple conversations and daily activities in Italian",
+  "sentenceCount": 15,
+  "sentencesUrl": "/data/sentences/deck_it_a2.json"
+}

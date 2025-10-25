@@ -1,0 +1,12 @@
+{
+  "id": "deck_ja_a1",
+  "language": "ja",
+  "languageName": "Japanese",
+  "nativeLanguageName": "日本語",
+  "level": "A1",
+  "levelName": "Beginner",
+  "title": "A1: Beginner Japanese",
+  "description": "Basic phrases and greetings in Japanese",
+  "sentenceCount": 20,
+  "sentencesUrl": "/data/sentences/deck_ja_a1.json"
+}

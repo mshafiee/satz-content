@@ -1,0 +1,12 @@
+{
+  "id": "deck_es_b2",
+  "language": "es",
+  "languageName": "Spanish",
+  "nativeLanguageName": "Español",
+  "level": "B2",
+  "levelName": "Upper Intermediate",
+  "title": "B2: Upper Intermediate Spanish",
+  "description": "Discuss complex topics and current events in Spanish",
+  "sentenceCount": 10,
+  "sentencesUrl": "/data/sentences/deck_es_b2.json"
+}

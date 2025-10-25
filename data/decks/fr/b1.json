@@ -1,0 +1,12 @@
+{
+  "id": "deck_fr_b1",
+  "language": "fr",
+  "languageName": "French",
+  "nativeLanguageName": "Français",
+  "level": "B1",
+  "levelName": "Intermediate",
+  "title": "B1: Intermediate French",
+  "description": "Express opinions and discuss familiar topics in French",
+  "sentenceCount": 10,
+  "sentencesUrl": "/data/sentences/deck_fr_b1.json"
+}

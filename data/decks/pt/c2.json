@@ -1,0 +1,12 @@
+{
+  "id": "deck_pt_c2",
+  "language": "pt",
+  "languageName": "Portuguese",
+  "nativeLanguageName": "Português",
+  "level": "C2",
+  "levelName": "Proficient",
+  "title": "C2: Proficient Portuguese",
+  "description": "Master level communication in Portuguese",
+  "sentenceCount": 10,
+  "sentencesUrl": "/data/sentences/deck_pt_c2.json"
+}

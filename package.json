@@ -1,0 +1,25 @@
+{
+  "name": "satz-content",
+  "version": "1.0.0",
+  "description": "Content repository for Satz language learning app - hosted on GitHub Pages",
+  "private": false,
+  "scripts": {
+    "generate": "ts-node scripts/generate-content.ts",
+    "validate": "ts-node scripts/validate-content.ts",
+    "build": "npm run generate && npm run validate",
+    "serve": "npx http-server . -p 8080 --cors"
+  },
+  "keywords": [
+    "language-learning",
+    "content",
+    "satz"
+  ],
+  "author": "Satz Team",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
+

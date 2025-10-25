@@ -1,0 +1,12 @@
+{
+  "id": "deck_de_a2",
+  "language": "de",
+  "languageName": "German",
+  "nativeLanguageName": "Deutsch",
+  "level": "A2",
+  "levelName": "Elementary",
+  "title": "A2: Elementary German",
+  "description": "Simple conversations and daily activities in German",
+  "sentenceCount": 15,
+  "sentencesUrl": "/data/sentences/deck_de_a2.json"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "deck_pt_a2",
+  "language": "pt",
+  "languageName": "Portuguese",
+  "nativeLanguageName": "Português",
+  "level": "A2",
+  "levelName": "Elementary",
+  "title": "A2: Elementary Portuguese",
+  "description": "Simple conversations and daily activities in Portuguese",
+  "sentenceCount": 15,
+  "sentencesUrl": "/data/sentences/deck_pt_a2.json"
+}

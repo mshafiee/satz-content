@@ -1,0 +1,12 @@
+{
+  "id": "deck_ja_b2",
+  "language": "ja",
+  "languageName": "Japanese",
+  "nativeLanguageName": "日本語",
+  "level": "B2",
+  "levelName": "Upper Intermediate",
+  "title": "B2: Upper Intermediate Japanese",
+  "description": "Discuss complex topics and current events in Japanese",
+  "sentenceCount": 10,
+  "sentencesUrl": "/data/sentences/deck_ja_b2.json"
+}

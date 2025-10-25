@@ -1,0 +1,12 @@
+{
+  "id": "deck_de_c2",
+  "language": "de",
+  "languageName": "German",
+  "nativeLanguageName": "Deutsch",
+  "level": "C2",
+  "levelName": "Proficient",
+  "title": "C2: Proficient German",
+  "description": "Master level communication in German",
+  "sentenceCount": 10,
+  "sentencesUrl": "/data/sentences/deck_de_c2.json"
+}
