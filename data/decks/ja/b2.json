@@ -8,5 +8,29 @@
   "title": "B2: Upper Intermediate Japanese",
   "description": "Discuss complex topics and current events in Japanese",
   "sentenceCount": 10,
-  "sentencesUrl": "/data/sentences/deck_ja_b2.json"
+  "sentencesUrl": "/data/sentences/deck_ja_b2.json",
+  "courseCount": 3,
+  "courses": [
+    {
+      "id": "course_ja_b2_1",
+      "order": 1,
+      "title": "Social Issues",
+      "description": "Discuss societal topics",
+      "sentenceCount": 4
+    },
+    {
+      "id": "course_ja_b2_2",
+      "order": 2,
+      "title": "Culture & Arts",
+      "description": "Talk about culture and arts",
+      "sentenceCount": 4
+    },
+    {
+      "id": "course_ja_b2_3",
+      "order": 3,
+      "title": "Environment",
+      "description": "Discuss environmental topics",
+      "sentenceCount": 2
+    }
+  ]
 }

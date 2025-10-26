@@ -18,7 +18,8 @@
         "text": "Sample translation 1",
         "audioUrl": "https://translate.google.com/translate_tts?ie=UTF-8&q=Sample%20translation%201&tl=en&client=tw-ob",
         "audioFile": "/audio/en/it-c2-1-en.mp3"
-      }
+      },
+      "courseId": "course_it_c2_1"
     },
     {
       "id": "it-c2-2",
@@ -32,7 +33,8 @@
         "text": "Sample translation 2",
         "audioUrl": "https://translate.google.com/translate_tts?ie=UTF-8&q=Sample%20translation%202&tl=en&client=tw-ob",
         "audioFile": "/audio/en/it-c2-2-en.mp3"
-      }
+      },
+      "courseId": "course_it_c2_1"
     },
     {
       "id": "it-c2-3",
@@ -46,7 +48,8 @@
         "text": "Sample translation 3",
         "audioUrl": "https://translate.google.com/translate_tts?ie=UTF-8&q=Sample%20translation%203&tl=en&client=tw-ob",
         "audioFile": "/audio/en/it-c2-3-en.mp3"
-      }
+      },
+      "courseId": "course_it_c2_1"
     },
     {
       "id": "it-c2-4",
@@ -60,7 +63,8 @@
         "text": "Sample translation 4",
         "audioUrl": "https://translate.google.com/translate_tts?ie=UTF-8&q=Sample%20translation%204&tl=en&client=tw-ob",
         "audioFile": "/audio/en/it-c2-4-en.mp3"
-      }
+      },
+      "courseId": "course_it_c2_1"
     },
     {
       "id": "it-c2-5",
@@ -74,7 +78,8 @@
         "text": "Sample translation 5",
         "audioUrl": "https://translate.google.com/translate_tts?ie=UTF-8&q=Sample%20translation%205&tl=en&client=tw-ob",
         "audioFile": "/audio/en/it-c2-5-en.mp3"
-      }
+      },
+      "courseId": "course_it_c2_1"
     },
     {
       "id": "it-c2-6",
@@ -88,7 +93,8 @@
         "text": "Sample translation 6",
         "audioUrl": "https://translate.google.com/translate_tts?ie=UTF-8&q=Sample%20translation%206&tl=en&client=tw-ob",
         "audioFile": "/audio/en/it-c2-6-en.mp3"
-      }
+      },
+      "courseId": "course_it_c2_1"
     },
     {
       "id": "it-c2-7",
@@ -102,7 +108,8 @@
         "text": "Sample translation 7",
         "audioUrl": "https://translate.google.com/translate_tts?ie=UTF-8&q=Sample%20translation%207&tl=en&client=tw-ob",
         "audioFile": "/audio/en/it-c2-7-en.mp3"
-      }
+      },
+      "courseId": "course_it_c2_1"
     },
     {
       "id": "it-c2-8",
@@ -116,7 +123,8 @@
         "text": "Sample translation 8",
         "audioUrl": "https://translate.google.com/translate_tts?ie=UTF-8&q=Sample%20translation%208&tl=en&client=tw-ob",
         "audioFile": "/audio/en/it-c2-8-en.mp3"
-      }
+      },
+      "courseId": "course_it_c2_1"
     },
     {
       "id": "it-c2-9",
@@ -130,7 +138,8 @@
         "text": "Sample translation 9",
         "audioUrl": "https://translate.google.com/translate_tts?ie=UTF-8&q=Sample%20translation%209&tl=en&client=tw-ob",
         "audioFile": "/audio/en/it-c2-9-en.mp3"
-      }
+      },
+      "courseId": "course_it_c2_1"
     },
     {
       "id": "it-c2-10",
@@ -144,7 +153,8 @@
         "text": "Sample translation 10",
         "audioUrl": "https://translate.google.com/translate_tts?ie=UTF-8&q=Sample%20translation%2010&tl=en&client=tw-ob",
         "audioFile": "/audio/en/it-c2-10-en.mp3"
-      }
+      },
+      "courseId": "course_it_c2_1"
     }
   ]
 }

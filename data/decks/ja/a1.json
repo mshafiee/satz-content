@@ -8,5 +8,43 @@
   "title": "A1: Beginner Japanese",
   "description": "Basic phrases and greetings in Japanese",
   "sentenceCount": 20,
-  "sentencesUrl": "/data/sentences/deck_ja_a1.json"
+  "sentencesUrl": "/data/sentences/deck_ja_a1.json",
+  "courseCount": 5,
+  "courses": [
+    {
+      "id": "course_ja_a1_1",
+      "order": 1,
+      "title": "Greetings & Basic Politeness",
+      "description": "Learn essential greetings, farewells, and polite expressions",
+      "sentenceCount": 4
+    },
+    {
+      "id": "course_ja_a1_2",
+      "order": 2,
+      "title": "Introductions",
+      "description": "Introduce yourself and ask about others",
+      "sentenceCount": 4
+    },
+    {
+      "id": "course_ja_a1_3",
+      "order": 3,
+      "title": "Hobbies & Interests",
+      "description": "Talk about activities you like",
+      "sentenceCount": 4
+    },
+    {
+      "id": "course_ja_a1_4",
+      "order": 4,
+      "title": "Countries & Cities",
+      "description": "Discuss where you and others are from",
+      "sentenceCount": 4
+    },
+    {
+      "id": "course_ja_a1_5",
+      "order": 5,
+      "title": "Languages & Nationalities",
+      "description": "Talk about languages you speak",
+      "sentenceCount": 4
+    }
+  ]
 }

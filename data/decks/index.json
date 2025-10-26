@@ -28,9 +28,10 @@
       "level": "A1",
       "title": "A1: Beginner German",
       "description": "Basic phrases and greetings in German",
-      "sentenceCount": 20,
+      "sentenceCount": 85,
       "deckUrl": "/data/decks/de/a1.json",
-      "sentencesUrl": "/data/sentences/deck_de_a1.json"
+      "sentencesUrl": "/data/sentences/deck_de_a1.json",
+      "courseCount": 5
     },
     {
       "id": "deck_de_a2",
@@ -41,7 +42,8 @@
       "description": "Simple conversations and daily activities in German",
       "sentenceCount": 15,
       "deckUrl": "/data/decks/de/a2.json",
-      "sentencesUrl": "/data/sentences/deck_de_a2.json"
+      "sentencesUrl": "/data/sentences/deck_de_a2.json",
+      "courseCount": 4
     },
     {
       "id": "deck_de_b1",
@@ -52,7 +54,8 @@
       "description": "Express opinions and discuss familiar topics in German",
       "sentenceCount": 10,
       "deckUrl": "/data/decks/de/b1.json",
-      "sentencesUrl": "/data/sentences/deck_de_b1.json"
+      "sentencesUrl": "/data/sentences/deck_de_b1.json",
+      "courseCount": 3
     },
     {
       "id": "deck_de_b2",
@@ -63,7 +66,8 @@
       "description": "Discuss complex topics and current events in German",
       "sentenceCount": 10,
       "deckUrl": "/data/decks/de/b2.json",
-      "sentencesUrl": "/data/sentences/deck_de_b2.json"
+      "sentencesUrl": "/data/sentences/deck_de_b2.json",
+      "courseCount": 3
     },
     {
       "id": "deck_de_c1",
@@ -74,7 +78,8 @@
       "description": "Express ideas fluently and spontaneously in German",
       "sentenceCount": 10,
       "deckUrl": "/data/decks/de/c1.json",
-      "sentencesUrl": "/data/sentences/deck_de_c1.json"
+      "sentencesUrl": "/data/sentences/deck_de_c1.json",
+      "courseCount": 2
     },
     {
       "id": "deck_de_c2",
@@ -85,7 +90,8 @@
       "description": "Master level communication in German",
       "sentenceCount": 10,
       "deckUrl": "/data/decks/de/c2.json",
-      "sentencesUrl": "/data/sentences/deck_de_c2.json"
+      "sentencesUrl": "/data/sentences/deck_de_c2.json",
+      "courseCount": 1
     },
     {
       "id": "deck_es_a1",
@@ -96,7 +102,8 @@
       "description": "Basic phrases and greetings in Spanish",
       "sentenceCount": 20,
       "deckUrl": "/data/decks/es/a1.json",
-      "sentencesUrl": "/data/sentences/deck_es_a1.json"
+      "sentencesUrl": "/data/sentences/deck_es_a1.json",
+      "courseCount": 5
     },
     {
       "id": "deck_es_a2",
@@ -107,7 +114,8 @@
       "description": "Simple conversations and daily activities in Spanish",
       "sentenceCount": 15,
       "deckUrl": "/data/decks/es/a2.json",
-      "sentencesUrl": "/data/sentences/deck_es_a2.json"
+      "sentencesUrl": "/data/sentences/deck_es_a2.json",
+      "courseCount": 4
     },
     {
       "id": "deck_es_b1",
@@ -118,7 +126,8 @@
       "description": "Express opinions and discuss familiar topics in Spanish",
       "sentenceCount": 10,
       "deckUrl": "/data/decks/es/b1.json",
-      "sentencesUrl": "/data/sentences/deck_es_b1.json"
+      "sentencesUrl": "/data/sentences/deck_es_b1.json",
+      "courseCount": 3
     },
     {
       "id": "deck_es_b2",
@@ -129,7 +138,8 @@
       "description": "Discuss complex topics and current events in Spanish",
       "sentenceCount": 10,
       "deckUrl": "/data/decks/es/b2.json",
-      "sentencesUrl": "/data/sentences/deck_es_b2.json"
+      "sentencesUrl": "/data/sentences/deck_es_b2.json",
+      "courseCount": 3
     },
     {
       "id": "deck_es_c1",
@@ -140,7 +150,8 @@
       "description": "Express ideas fluently and spontaneously in Spanish",
       "sentenceCount": 10,
       "deckUrl": "/data/decks/es/c1.json",
-      "sentencesUrl": "/data/sentences/deck_es_c1.json"
+      "sentencesUrl": "/data/sentences/deck_es_c1.json",
+      "courseCount": 2
     },
     {
       "id": "deck_es_c2",
@@ -151,7 +162,8 @@
       "description": "Master level communication in Spanish",
       "sentenceCount": 10,
       "deckUrl": "/data/decks/es/c2.json",
-      "sentencesUrl": "/data/sentences/deck_es_c2.json"
+      "sentencesUrl": "/data/sentences/deck_es_c2.json",
+      "courseCount": 1
     },
     {
       "id": "deck_fr_a1",
@@ -162,7 +174,8 @@
       "description": "Basic phrases and greetings in French",
       "sentenceCount": 20,
       "deckUrl": "/data/decks/fr/a1.json",
-      "sentencesUrl": "/data/sentences/deck_fr_a1.json"
+      "sentencesUrl": "/data/sentences/deck_fr_a1.json",
+      "courseCount": 5
     },
     {
       "id": "deck_fr_a2",
@@ -173,7 +186,8 @@
       "description": "Simple conversations and daily activities in French",
       "sentenceCount": 15,
       "deckUrl": "/data/decks/fr/a2.json",
-      "sentencesUrl": "/data/sentences/deck_fr_a2.json"
+      "sentencesUrl": "/data/sentences/deck_fr_a2.json",
+      "courseCount": 4
     },
     {
       "id": "deck_fr_b1",
@@ -184,7 +198,8 @@
       "description": "Express opinions and discuss familiar topics in French",
       "sentenceCount": 10,
       "deckUrl": "/data/decks/fr/b1.json",
-      "sentencesUrl": "/data/sentences/deck_fr_b1.json"
+      "sentencesUrl": "/data/sentences/deck_fr_b1.json",
+      "courseCount": 3
     },
     {
       "id": "deck_fr_b2",
@@ -195,7 +210,8 @@
       "description": "Discuss complex topics and current events in French",
       "sentenceCount": 10,
       "deckUrl": "/data/decks/fr/b2.json",
-      "sentencesUrl": "/data/sentences/deck_fr_b2.json"
+      "sentencesUrl": "/data/sentences/deck_fr_b2.json",
+      "courseCount": 3
     },
     {
       "id": "deck_fr_c1",
@@ -206,7 +222,8 @@
       "description": "Express ideas fluently and spontaneously in French",
       "sentenceCount": 10,
       "deckUrl": "/data/decks/fr/c1.json",
-      "sentencesUrl": "/data/sentences/deck_fr_c1.json"
+      "sentencesUrl": "/data/sentences/deck_fr_c1.json",
+      "courseCount": 2
     },
     {
       "id": "deck_fr_c2",
@@ -217,7 +234,8 @@
       "description": "Master level communication in French",
       "sentenceCount": 10,
       "deckUrl": "/data/decks/fr/c2.json",
-      "sentencesUrl": "/data/sentences/deck_fr_c2.json"
+      "sentencesUrl": "/data/sentences/deck_fr_c2.json",
+      "courseCount": 1
     },
     {
       "id": "deck_it_a1",
@@ -228,7 +246,8 @@
       "description": "Basic phrases and greetings in Italian",
       "sentenceCount": 20,
       "deckUrl": "/data/decks/it/a1.json",
-      "sentencesUrl": "/data/sentences/deck_it_a1.json"
+      "sentencesUrl": "/data/sentences/deck_it_a1.json",
+      "courseCount": 5
     },
     {
       "id": "deck_it_a2",
@@ -239,7 +258,8 @@
       "description": "Simple conversations and daily activities in Italian",
       "sentenceCount": 15,
       "deckUrl": "/data/decks/it/a2.json",
-      "sentencesUrl": "/data/sentences/deck_it_a2.json"
+      "sentencesUrl": "/data/sentences/deck_it_a2.json",
+      "courseCount": 4
     },
     {
       "id": "deck_it_b1",
@@ -250,7 +270,8 @@
       "description": "Express opinions and discuss familiar topics in Italian",
       "sentenceCount": 10,
       "deckUrl": "/data/decks/it/b1.json",
-      "sentencesUrl": "/data/sentences/deck_it_b1.json"
+      "sentencesUrl": "/data/sentences/deck_it_b1.json",
+      "courseCount": 3
     },
     {
       "id": "deck_it_b2",
@@ -261,7 +282,8 @@
       "description": "Discuss complex topics and current events in Italian",
       "sentenceCount": 10,
       "deckUrl": "/data/decks/it/b2.json",
-      "sentencesUrl": "/data/sentences/deck_it_b2.json"
+      "sentencesUrl": "/data/sentences/deck_it_b2.json",
+      "courseCount": 3
     },
     {
       "id": "deck_it_c1",
@@ -272,7 +294,8 @@
       "description": "Express ideas fluently and spontaneously in Italian",
       "sentenceCount": 10,
       "deckUrl": "/data/decks/it/c1.json",
-      "sentencesUrl": "/data/sentences/deck_it_c1.json"
+      "sentencesUrl": "/data/sentences/deck_it_c1.json",
+      "courseCount": 2
     },
     {
       "id": "deck_it_c2",
@@ -283,7 +306,8 @@
       "description": "Master level communication in Italian",
       "sentenceCount": 10,
       "deckUrl": "/data/decks/it/c2.json",
-      "sentencesUrl": "/data/sentences/deck_it_c2.json"
+      "sentencesUrl": "/data/sentences/deck_it_c2.json",
+      "courseCount": 1
     },
     {
       "id": "deck_pt_a1",
@@ -294,7 +318,8 @@
       "description": "Basic phrases and greetings in Portuguese",
       "sentenceCount": 20,
       "deckUrl": "/data/decks/pt/a1.json",
-      "sentencesUrl": "/data/sentences/deck_pt_a1.json"
+      "sentencesUrl": "/data/sentences/deck_pt_a1.json",
+      "courseCount": 5
     },
     {
       "id": "deck_pt_a2",
@@ -305,7 +330,8 @@
       "description": "Simple conversations and daily activities in Portuguese",
       "sentenceCount": 15,
       "deckUrl": "/data/decks/pt/a2.json",
-      "sentencesUrl": "/data/sentences/deck_pt_a2.json"
+      "sentencesUrl": "/data/sentences/deck_pt_a2.json",
+      "courseCount": 4
     },
     {
       "id": "deck_pt_b1",
@@ -316,7 +342,8 @@
       "description": "Express opinions and discuss familiar topics in Portuguese",
       "sentenceCount": 10,
       "deckUrl": "/data/decks/pt/b1.json",
-      "sentencesUrl": "/data/sentences/deck_pt_b1.json"
+      "sentencesUrl": "/data/sentences/deck_pt_b1.json",
+      "courseCount": 3
     },
     {
       "id": "deck_pt_b2",
@@ -327,7 +354,8 @@
       "description": "Discuss complex topics and current events in Portuguese",
       "sentenceCount": 10,
       "deckUrl": "/data/decks/pt/b2.json",
-      "sentencesUrl": "/data/sentences/deck_pt_b2.json"
+      "sentencesUrl": "/data/sentences/deck_pt_b2.json",
+      "courseCount": 3
     },
     {
       "id": "deck_pt_c1",
@@ -338,7 +366,8 @@
       "description": "Express ideas fluently and spontaneously in Portuguese",
       "sentenceCount": 10,
       "deckUrl": "/data/decks/pt/c1.json",
-      "sentencesUrl": "/data/sentences/deck_pt_c1.json"
+      "sentencesUrl": "/data/sentences/deck_pt_c1.json",
+      "courseCount": 2
     },
     {
       "id": "deck_pt_c2",
@@ -349,7 +378,8 @@
       "description": "Master level communication in Portuguese",
       "sentenceCount": 10,
       "deckUrl": "/data/decks/pt/c2.json",
-      "sentencesUrl": "/data/sentences/deck_pt_c2.json"
+      "sentencesUrl": "/data/sentences/deck_pt_c2.json",
+      "courseCount": 1
     },
     {
       "id": "deck_ja_a1",
@@ -360,7 +390,8 @@
       "description": "Basic phrases and greetings in Japanese",
       "sentenceCount": 20,
       "deckUrl": "/data/decks/ja/a1.json",
-      "sentencesUrl": "/data/sentences/deck_ja_a1.json"
+      "sentencesUrl": "/data/sentences/deck_ja_a1.json",
+      "courseCount": 5
     },
     {
       "id": "deck_ja_a2",
@@ -371,7 +402,8 @@
       "description": "Simple conversations and daily activities in Japanese",
       "sentenceCount": 15,
       "deckUrl": "/data/decks/ja/a2.json",
-      "sentencesUrl": "/data/sentences/deck_ja_a2.json"
+      "sentencesUrl": "/data/sentences/deck_ja_a2.json",
+      "courseCount": 4
     },
     {
       "id": "deck_ja_b1",
@@ -382,7 +414,8 @@
       "description": "Express opinions and discuss familiar topics in Japanese",
       "sentenceCount": 10,
       "deckUrl": "/data/decks/ja/b1.json",
-      "sentencesUrl": "/data/sentences/deck_ja_b1.json"
+      "sentencesUrl": "/data/sentences/deck_ja_b1.json",
+      "courseCount": 3
     },
     {
       "id": "deck_ja_b2",
@@ -393,7 +426,8 @@
       "description": "Discuss complex topics and current events in Japanese",
       "sentenceCount": 10,
       "deckUrl": "/data/decks/ja/b2.json",
-      "sentencesUrl": "/data/sentences/deck_ja_b2.json"
+      "sentencesUrl": "/data/sentences/deck_ja_b2.json",
+      "courseCount": 3
     },
     {
       "id": "deck_ja_c1",
@@ -404,7 +438,8 @@
       "description": "Express ideas fluently and spontaneously in Japanese",
       "sentenceCount": 10,
       "deckUrl": "/data/decks/ja/c1.json",
-      "sentencesUrl": "/data/sentences/deck_ja_c1.json"
+      "sentencesUrl": "/data/sentences/deck_ja_c1.json",
+      "courseCount": 2
     },
     {
       "id": "deck_ja_c2",
@@ -415,7 +450,8 @@
       "description": "Master level communication in Japanese",
       "sentenceCount": 10,
       "deckUrl": "/data/decks/ja/c2.json",
-      "sentencesUrl": "/data/sentences/deck_ja_c2.json"
+      "sentencesUrl": "/data/sentences/deck_ja_c2.json",
+      "courseCount": 1
     },
     {
       "id": "deck_en_a1",
@@ -426,7 +462,8 @@
       "description": "Basic phrases and greetings in English",
       "sentenceCount": 20,
       "deckUrl": "/data/decks/en/a1.json",
-      "sentencesUrl": "/data/sentences/deck_en_a1.json"
+      "sentencesUrl": "/data/sentences/deck_en_a1.json",
+      "courseCount": 5
     },
     {
       "id": "deck_en_a2",
@@ -437,7 +474,8 @@
       "description": "Simple conversations and daily activities in English",
       "sentenceCount": 15,
       "deckUrl": "/data/decks/en/a2.json",
-      "sentencesUrl": "/data/sentences/deck_en_a2.json"
+      "sentencesUrl": "/data/sentences/deck_en_a2.json",
+      "courseCount": 4
     },
     {
       "id": "deck_en_b1",
@@ -448,7 +486,8 @@
       "description": "Express opinions and discuss familiar topics in English",
       "sentenceCount": 10,
       "deckUrl": "/data/decks/en/b1.json",
-      "sentencesUrl": "/data/sentences/deck_en_b1.json"
+      "sentencesUrl": "/data/sentences/deck_en_b1.json",
+      "courseCount": 3
     },
     {
       "id": "deck_en_b2",
@@ -459,7 +498,8 @@
       "description": "Discuss complex topics and current events in English",
       "sentenceCount": 10,
       "deckUrl": "/data/decks/en/b2.json",
-      "sentencesUrl": "/data/sentences/deck_en_b2.json"
+      "sentencesUrl": "/data/sentences/deck_en_b2.json",
+      "courseCount": 3
     },
     {
       "id": "deck_en_c1",
@@ -470,7 +510,8 @@
       "description": "Express ideas fluently and spontaneously in English",
       "sentenceCount": 10,
       "deckUrl": "/data/decks/en/c1.json",
-      "sentencesUrl": "/data/sentences/deck_en_c1.json"
+      "sentencesUrl": "/data/sentences/deck_en_c1.json",
+      "courseCount": 2
     },
     {
       "id": "deck_en_c2",
@@ -481,7 +522,8 @@
       "description": "Master level communication in English",
       "sentenceCount": 10,
       "deckUrl": "/data/decks/en/c2.json",
-      "sentencesUrl": "/data/sentences/deck_en_c2.json"
+      "sentencesUrl": "/data/sentences/deck_en_c2.json",
+      "courseCount": 1
     }
   ]
 }

@@ -8,5 +8,29 @@
   "title": "B1: Intermediate English",
   "description": "Express opinions and discuss familiar topics in English",
   "sentenceCount": 10,
-  "sentencesUrl": "/data/sentences/deck_en_b1.json"
+  "sentencesUrl": "/data/sentences/deck_en_b1.json",
+  "courseCount": 3,
+  "courses": [
+    {
+      "id": "course_en_b1_1",
+      "order": 1,
+      "title": "Work & Career",
+      "description": "Discuss work and professional life",
+      "sentenceCount": 4
+    },
+    {
+      "id": "course_en_b1_2",
+      "order": 2,
+      "title": "Health & Wellness",
+      "description": "Talk about health and wellbeing",
+      "sentenceCount": 4
+    },
+    {
+      "id": "course_en_b1_3",
+      "order": 3,
+      "title": "Technology & Media",
+      "description": "Discuss technology and media",
+      "sentenceCount": 2
+    }
+  ]
 }

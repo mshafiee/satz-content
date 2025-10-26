@@ -8,5 +8,22 @@
   "title": "C1: Advanced Portuguese",
   "description": "Express ideas fluently and spontaneously in Portuguese",
   "sentenceCount": 10,
-  "sentencesUrl": "/data/sentences/deck_pt_c1.json"
+  "sentencesUrl": "/data/sentences/deck_pt_c1.json",
+  "courseCount": 2,
+  "courses": [
+    {
+      "id": "course_pt_c1_1",
+      "order": 1,
+      "title": "Advanced Communication",
+      "description": "Master complex conversations",
+      "sentenceCount": 5
+    },
+    {
+      "id": "course_pt_c1_2",
+      "order": 2,
+      "title": "Professional Contexts",
+      "description": "Handle professional situations",
+      "sentenceCount": 5
+    }
+  ]
 }

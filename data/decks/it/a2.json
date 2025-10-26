@@ -8,5 +8,36 @@
   "title": "A2: Elementary Italian",
   "description": "Simple conversations and daily activities in Italian",
   "sentenceCount": 15,
-  "sentencesUrl": "/data/sentences/deck_it_a2.json"
+  "sentencesUrl": "/data/sentences/deck_it_a2.json",
+  "courseCount": 4,
+  "courses": [
+    {
+      "id": "course_it_a2_1",
+      "order": 1,
+      "title": "Daily Routines",
+      "description": "Describe your daily activities",
+      "sentenceCount": 4
+    },
+    {
+      "id": "course_it_a2_2",
+      "order": 2,
+      "title": "Shopping & Money",
+      "description": "Learn to shop and handle money",
+      "sentenceCount": 4
+    },
+    {
+      "id": "course_it_a2_3",
+      "order": 3,
+      "title": "Food & Dining",
+      "description": "Order food and talk about meals",
+      "sentenceCount": 4
+    },
+    {
+      "id": "course_it_a2_4",
+      "order": 4,
+      "title": "Travel & Transportation",
+      "description": "Navigate transportation and travel",
+      "sentenceCount": 3
+    }
+  ]
 }

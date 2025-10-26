@@ -117,6 +117,8 @@ function validateDeckFiles() {
   
   const index = JSON.parse(fs.readFileSync(indexPath, 'utf8'));
   let validCount = 0;
+  let totalCourses = 0;
+  let coursesValidated = 0;
   
   for (const deck of index.decks || []) {
     const deckPath = path.join(__dirname, '..', deck.deckUrl);
@@ -127,7 +129,7 @@ function validateDeckFiles() {
     if (!deckData) continue;
     
     // Validate deck structure
-    const requiredFields = ['id', 'language', 'level', 'title', 'sentenceCount', 'sentencesUrl'];
+    const requiredFields = ['id', 'language', 'level', 'title', 'sentenceCount', 'sentencesUrl', 'courseCount'];
     for (const field of requiredFields) {
       if (!(field in deckData)) {
         errors.push({
@@ -145,10 +147,55 @@ function validateDeckFiles() {
       });
     }
     
+    // Validate courses array
+    if (deckData.courses) {
+      if (!Array.isArray(deckData.courses)) {
+        errors.push({
+          file: deckPath,
+          error: 'courses must be an array',
+        });
+      } else {
+        // Validate course count matches
+        if (deckData.courses.length !== deckData.courseCount) {
+          errors.push({
+            file: deckPath,
+            error: `Course count mismatch: courseCount=${deckData.courseCount}, but courses array has ${deckData.courses.length} items`,
+          });
+        }
+        
+        // Validate each course
+        deckData.courses.forEach((course: any, i: number) => {
+          const courseFields = ['id', 'order', 'title', 'description', 'sentenceCount'];
+          courseFields.forEach(field => {
+            if (!(field in course)) {
+              errors.push({
+                file: deckPath,
+                error: `Course ${i}: Missing required field: ${field}`,
+              });
+            }
+          });
+          
+          // Validate course order is sequential
+          if (course.order !== i + 1) {
+            errors.push({
+              file: deckPath,
+              error: `Course ${i}: order should be ${i + 1}, got ${course.order}`,
+            });
+          }
+          
+          coursesValidated++;
+        });
+        
+        totalCourses += deckData.courses.length;
+      }
+    }
+    
     validCount++;
   }
   
   console.log(`  ✓ Validated ${validCount} deck files`);
+  console.log(`  ✓ Validated ${coursesValidated} courses (course structure, order, fields)`);
+  console.log(`  ✓ Total courses across all decks: ${totalCourses}`);
 }
 
 function validateSentenceFiles() {
@@ -167,6 +214,8 @@ function validateSentenceFiles() {
   const files = fs.readdirSync(sentencesDir).filter(f => f.endsWith('.json'));
   let validCount = 0;
   let totalSentences = 0;
+  let sentencesWithCourseId = 0;
+  let courseIdValidations = 0;
   
   for (const file of files) {
     const filePath = path.join(sentencesDir, file);
@@ -202,9 +251,30 @@ function validateSentenceFiles() {
       });
     }
     
+    // Load corresponding deck to validate courseIds
+    let validCourseIds: string[] = [];
+    if (data.deckId) {
+      try {
+        const indexPath = path.join(__dirname, '..', 'data', 'decks', 'index.json');
+        const index = JSON.parse(fs.readFileSync(indexPath, 'utf8'));
+        const deckEntry = index.decks.find((d: any) => d.id === data.deckId);
+        
+        if (deckEntry) {
+          const deckPath = path.join(__dirname, '..', deckEntry.deckUrl);
+          const deckData = JSON.parse(fs.readFileSync(deckPath, 'utf8'));
+          
+          if (deckData.courses && Array.isArray(deckData.courses)) {
+            validCourseIds = deckData.courses.map((c: any) => c.id);
+          }
+        }
+      } catch (err) {
+        // Continue validation even if deck loading fails
+      }
+    }
+    
     // Validate each sentence
     data.sentences.forEach((sentence: any, i: number) => {
-      const sentenceFields = ['id', 'order', 'targetLanguage', 'nativeLanguage'];
+      const sentenceFields = ['id', 'order', 'courseId', 'targetLanguage', 'nativeLanguage'];
       sentenceFields.forEach(field => {
         if (!(field in sentence)) {
           errors.push({
@@ -213,6 +283,30 @@ function validateSentenceFiles() {
           });
         }
       });
+      
+      // Count sentences with courseId
+      if (sentence.courseId) {
+        sentencesWithCourseId++;
+      }
+      
+      // Validate courseId format
+      if (sentence.courseId && typeof sentence.courseId !== 'string') {
+        errors.push({
+          file: filePath,
+          error: `Sentence ${i}: courseId must be a string`,
+        });
+      }
+      
+      // Validate courseId exists in deck
+      if (sentence.courseId && validCourseIds.length > 0) {
+        courseIdValidations++;
+        if (!validCourseIds.includes(sentence.courseId)) {
+          errors.push({
+            file: filePath,
+            error: `Sentence ${i} (${sentence.id}): courseId "${sentence.courseId}" does not exist in deck ${data.deckId}`,
+          });
+        }
+      }
       
       // Validate language objects
       ['targetLanguage', 'nativeLanguage'].forEach(langField => {
@@ -234,7 +328,10 @@ function validateSentenceFiles() {
     totalSentences += data.sentences.length;
   }
   
-  console.log(`  ✓ Validated ${validCount} sentence files (${totalSentences} total sentences)`);
+  console.log(`  ✓ Validated ${validCount} sentence files`);
+  console.log(`  ✓ Total sentences: ${totalSentences}`);
+  console.log(`  ✓ Sentences with courseId: ${sentencesWithCourseId}`);
+  console.log(`  ✓ CourseId cross-references validated: ${courseIdValidations}`);
 }
 
 function validateDirectoryStructure() {

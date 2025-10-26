@@ -86,6 +86,7 @@ function ensureDirectoryExists(dirPath: string) {
 
 function generateDeckIndex(sentences: MockSentence[]) {
   const decks: any[] = [];
+  const decksDir = path.join(__dirname, '..', 'data', 'decks');
   
   for (const lang of LANGUAGES) {
     for (const level of LEVELS) {
@@ -95,6 +96,19 @@ function generateDeckIndex(sentences: MockSentence[]) {
       
       if (deckSentences.length > 0) {
         const deckId = `deck_${lang.code}_${level.code.toLowerCase()}`;
+        const deckPath = path.join(decksDir, lang.code, `${level.code.toLowerCase()}.json`);
+        
+        // Try to read existing deck file to get courseCount
+        let courseCount = 3; // Default fallback
+        try {
+          if (fs.existsSync(deckPath)) {
+            const existingDeck = JSON.parse(fs.readFileSync(deckPath, 'utf8'));
+            courseCount = existingDeck.courseCount || (existingDeck.courses ? existingDeck.courses.length : 3);
+          }
+        } catch (err) {
+          console.log(`  Warning: Could not read existing deck ${deckId}, using default courseCount`);
+        }
+        
         decks.push({
           id: deckId,
           language: lang.code,
@@ -102,6 +116,7 @@ function generateDeckIndex(sentences: MockSentence[]) {
           level: level.code,
           title: `${level.code}: ${level.name} ${lang.name}`,
           description: `${level.description} in ${lang.name}`,
+          courseCount,
           sentenceCount: deckSentences.length,
           deckUrl: `/data/decks/${lang.code}/${level.code.toLowerCase()}.json`,
           sentencesUrl: `/data/sentences/${deckId}.json`,
@@ -131,6 +146,7 @@ function generateDeckIndex(sentences: MockSentence[]) {
 
 function generateDeckFiles(sentences: MockSentence[]) {
   let deckCount = 0;
+  const DEFAULT_COURSES_PER_DECK = 3; // Default fallback if no existing deck
   
   for (const lang of LANGUAGES) {
     const langDir = path.join(__dirname, '..', 'data', 'decks', lang.code);
@@ -143,21 +159,65 @@ function generateDeckFiles(sentences: MockSentence[]) {
       
       if (deckSentences.length > 0) {
         const deckId = `deck_${lang.code}_${level.code.toLowerCase()}`;
+        const deckPath = path.join(langDir, `${level.code.toLowerCase()}.json`);
+        
+        // Try to read existing deck file to preserve course structure
+        let courses = [];
+        let existingDeck = null;
+        
+        try {
+          if (fs.existsSync(deckPath)) {
+            existingDeck = JSON.parse(fs.readFileSync(deckPath, 'utf8'));
+            if (existingDeck.courses && Array.isArray(existingDeck.courses)) {
+              // Preserve existing courses structure
+              courses = existingDeck.courses;
+              console.log(`  Preserving ${courses.length} existing courses for ${deckId}`);
+            }
+          }
+        } catch (err) {
+          console.log(`  Warning: Could not read existing deck ${deckId}`);
+        }
+        
+        // If no existing courses, generate default structure
+        if (courses.length === 0) {
+          const coursesPerDeck = DEFAULT_COURSES_PER_DECK;
+          const sentencesPerCourse = Math.ceil(deckSentences.length / coursesPerDeck);
+          
+          for (let i = 0; i < coursesPerDeck; i++) {
+            const courseNum = i + 1;
+            const startIdx = i * sentencesPerCourse;
+            const endIdx = Math.min((i + 1) * sentencesPerCourse, deckSentences.length);
+            const courseSentenceCount = endIdx - startIdx;
+            
+            if (courseSentenceCount > 0) {
+              courses.push({
+                id: `course_${lang.code}_${level.code.toLowerCase()}_${courseNum}`,
+                order: courseNum,
+                title: `Course ${courseNum}`,
+                description: `${lang.name} ${level.code} - Part ${courseNum}`,
+                sentenceCount: courseSentenceCount,
+              });
+            }
+          }
+        }
+        
         const deck = {
+          ...(existingDeck || {}), // Preserve any existing fields
           id: deckId,
           language: lang.code,
           languageName: lang.name,
           nativeLanguageName: lang.nativeName,
           level: level.code,
           levelName: level.name,
-          title: `${level.code}: ${level.name} ${lang.name}`,
-          description: `${level.description} in ${lang.name}`,
+          title: existingDeck?.title || `${level.code}: ${level.name} ${lang.name}`,
+          description: existingDeck?.description || `${level.description} in ${lang.name}`,
+          courseCount: courses.length,
           sentenceCount: deckSentences.length,
           sentencesUrl: `/data/sentences/${deckId}.json`,
+          courses,
         };
         
-        const outputPath = path.join(langDir, `${level.code.toLowerCase()}.json`);
-        fs.writeFileSync(outputPath, JSON.stringify(deck, null, 2));
+        fs.writeFileSync(deckPath, JSON.stringify(deck, null, 2));
         deckCount++;
       }
     }
@@ -171,6 +231,7 @@ function generateSentenceFiles(sentences: MockSentence[]) {
   ensureDirectoryExists(sentencesDir);
   
   let fileCount = 0;
+  const DEFAULT_COURSES_PER_DECK = 3; // Default fallback
   
   for (const lang of LANGUAGES) {
     for (const level of LEVELS) {
@@ -181,6 +242,25 @@ function generateSentenceFiles(sentences: MockSentence[]) {
       if (deckSentences.length > 0) {
         const deckId = `deck_${lang.code}_${level.code.toLowerCase()}`;
         
+        // Read existing deck file to get actual course count
+        let coursesPerDeck = DEFAULT_COURSES_PER_DECK;
+        try {
+          const deckPath = path.join(__dirname, '..', 'data', 'decks', lang.code, `${level.code.toLowerCase()}.json`);
+          if (fs.existsSync(deckPath)) {
+            const deckData = JSON.parse(fs.readFileSync(deckPath, 'utf8'));
+            if (deckData.courses && Array.isArray(deckData.courses)) {
+              coursesPerDeck = deckData.courses.length;
+            } else if (deckData.courseCount) {
+              coursesPerDeck = deckData.courseCount;
+            }
+          }
+        } catch (err) {
+          console.log(`  Warning: Could not read deck for ${deckId}, using default course count`);
+        }
+        
+        // Calculate sentences per course for courseId assignment
+        const sentencesPerCourse = Math.ceil(deckSentences.length / coursesPerDeck);
+        
         const sentenceData = {
           deckId,
           version: '1.0',
@@ -188,20 +268,28 @@ function generateSentenceFiles(sentences: MockSentence[]) {
           language: lang.code,
           level: level.code,
           sentenceCount: deckSentences.length,
-          sentences: deckSentences.map((s, index) => ({
-            id: s.id,
-            order: index + 1,
-            targetLanguage: {
-              text: s.text,
-              audioUrl: s.audioUrl,
-              audioFile: `/audio/${lang.code}/${s.id}.mp3`,
-            },
-            nativeLanguage: {
-              text: s.translation,
-              audioUrl: `https://translate.google.com/translate_tts?ie=UTF-8&q=${encodeURIComponent(s.translation)}&tl=en&client=tw-ob`,
-              audioFile: `/audio/en/${s.id}-en.mp3`,
-            },
-          })),
+          sentences: deckSentences.map((s, index) => {
+            // Assign courseId based on sentence position
+            const courseIndex = Math.floor(index / sentencesPerCourse);
+            const courseNum = Math.min(courseIndex + 1, coursesPerDeck);
+            const courseId = `course_${lang.code}_${level.code.toLowerCase()}_${courseNum}`;
+            
+            return {
+              id: s.id,
+              order: index + 1,
+              courseId,
+              targetLanguage: {
+                text: s.text,
+                audioUrl: s.audioUrl,
+                audioFile: `/audio/${lang.code}/${s.id}.mp3`,
+              },
+              nativeLanguage: {
+                text: s.translation,
+                audioUrl: `https://translate.google.com/translate_tts?ie=UTF-8&q=${encodeURIComponent(s.translation)}&tl=en&client=tw-ob`,
+                audioFile: `/audio/en/${s.id}-en.mp3`,
+              },
+            };
+          }),
         };
         
         const outputPath = path.join(sentencesDir, `${deckId}.json`);
@@ -281,7 +369,11 @@ function main() {
   generatePlaceholderReadme();
   
   console.log('\n✅ Content generation complete!\n');
-  console.log('Next steps:');
+  console.log('Generated structure:');
+  console.log('  - Decks with courseCount and courses array (preserves existing course structure)');
+  console.log('  - Sentences with courseId field (dynamically assigned based on deck courses)');
+  console.log('  - Course count read from existing deck files or defaults to 3');
+  console.log('\nNext steps:');
   console.log('  1. Run "npm run validate" to verify the generated files');
   console.log('  2. Commit and push to trigger GitHub Pages deployment');
   console.log('  3. Access content at: https://[username].github.io/satz-content/');

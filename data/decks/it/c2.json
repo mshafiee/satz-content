@@ -8,5 +8,15 @@
   "title": "C2: Proficient Italian",
   "description": "Master level communication in Italian",
   "sentenceCount": 10,
-  "sentencesUrl": "/data/sentences/deck_it_c2.json"
+  "sentencesUrl": "/data/sentences/deck_it_c2.json",
+  "courseCount": 1,
+  "courses": [
+    {
+      "id": "course_it_c2_1",
+      "order": 1,
+      "title": "Expert Level",
+      "description": "Achieve mastery in the language",
+      "sentenceCount": 10
+    }
+  ]
 }
